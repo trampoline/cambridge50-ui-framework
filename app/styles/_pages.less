@@ -373,7 +373,7 @@ body {
   }
 }
 
-#revenue-bands-table {
+#revenue-bands-table, #scaleup-factor-table {
   table {
     > tr {
       > th {
@@ -390,10 +390,6 @@ body {
   table {
     > tr {
       > th {
-        width: 14%;
-        &.col-1 {
-          width: 16%;
-        }
         &.col-4 {
           width: 56%; // 14% * 4
         }
@@ -422,7 +418,7 @@ body {
           > span {
             white-space: nowrap;
           }
-          &.col-1, &.col-3 {
+          &.latest-revenue-rank, &.latest-employment-rank {
             font-size: 1.5em;
             line-height: 1;
           }
